@@ -1,0 +1,50 @@
+==================================================
+          REPORTE DE INVENTARIO DE HARDWARE       
+==================================================
+Nombre del equipo : sebas15-VirtualBox
+Fecha y hora      : mar 06 oct 2026 22:53:41 -05
+Sistema Operativo : Ubuntu 26.04.1 LTS
+
+==================================================
+ [CPU] Información del Procesador
+==================================================
+CPU(s):                                   14
+«Socket(s)»:                              1
+Caché L1d:                                672 KiB (14 instancias)
+Caché L1i:                                448 KiB (14 instancias)
+Caché L2:                                 17,5 MiB (14 instancias)
+Caché L3:                                 336 MiB (14 instancias)
+
+==================================================
+ [MEMORIA] Memoria RAM Total
+==================================================
+               total       usado       libre  compartido   búf/caché  disponible
+Mem:           5,3Gi       2,8Gi       378Mi        39Mi       2,3Gi       2,5Gi
+Inter:         4,0Gi       632Ki       4,0Gi
+
+==================================================
+ [DISCOS] Dispositivos de Almacenamiento
+==================================================
+NAME   TYPE   SIZE MODEL
+loop0  loop     4K 
+loop1  loop  66,8M 
+loop2  loop    20M 
+loop3  loop 260,3M 
+loop4  loop 614,5M 
+loop5  loop  16,5M 
+loop6  loop   1,5M 
+loop7  loop  91,7M 
+loop8  loop   402M 
+loop9  loop  18,8M 
+loop10 loop  11,8M 
+loop11 loop  50,1M 
+loop12 loop   828K 
+sda    disk  40,8G VBOX HARDDISK
+sr0    rom   1024M VBOX CD-ROM
+
+==================================================
+ [EXTRA] Interfaces de Red y Dirección IP
+==================================================
+Interfaz: lo | IP: 127.0.0.1/8
+Interfaz: enp0s3 | IP: 10.0.2.15/24
+--------------------------------------------------
