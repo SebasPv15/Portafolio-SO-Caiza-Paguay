@@ -1,0 +1,46 @@
+
+==============================================
+        INVENTARIO DE HARDWARE
+==============================================
+
+== Equipo: SEBAS
+== Fecha: 10/09/2026 17:47:13
+
+== Sistema Operativo
+SO: Microsoft Windows 11 Pro
+Version: 10.0.26200
+
+== CPU
+Modelo: 12th Gen Intel(R) Core(TM) i7-12700H
+Nucleos: 14
+Hilos: 20
+Frecuencia: 2300 MHz
+
+== Cache
+L2: 11776 KB
+L3: 24576 KB
+
+== Memoria RAM
+RAM total: 15.69 GB
+
+== Discos
+
+FriendlyName                 MediaType Tamano(GB)
+------------                 --------- ----------
+NVMe MTFDKBA512QFM-1BD1AABGB SSD           476,94
+
+
+== Interfaces de red e IP
+
+InterfaceAlias             IPAddress
+--------------             ---------
+Conexión de área local* 12 169.254.152.127
+Ethernet                   192.168.56.1
+Conexión de área local* 11 169.254.90.71
+Conexión de red Bluetooth  169.254.203.159
+Wi-Fi 2                    192.168.100.15
+
+
+==============================================
+        FIN DEL INVENTARIO
+==============================================
