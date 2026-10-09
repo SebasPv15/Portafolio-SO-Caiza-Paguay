@@ -56,3 +56,18 @@ En esta sección se encuentran los elementos solicitados para la primera semana:
   Hilos: $($cpu.NumberOfLogicalProcessors)
   Frecuencia: $($cpu.MaxClockSpeed) MHz
   "@
+  * **Script para Linux (`inventario.sh`):**
+  ```bash
+  #!/usr/bin/env bash
+SALIDA="inventario_$(hostname).txt"
+{
+    echo "=================================================="
+    echo "          REPORTE DE INVENTARIO DE HARDWARE       "
+    echo "=================================================="
+    echo "Nombre del equipo : $(hostname)"
+    echo "Fecha y hora      : $(date)"
+    lscpu | grep -E 'Model name|^CPU\(s\):'
+    free -h
+    lsblk -d -o NAME,TYPE,SIZE,MODEL 2>/dev/null
+} > "$SALIDA"
+**Captura de salida / Resultados:** Archivo de texto con la ejecución de los scripts (`inventario_hardware.txt`)(`inventario_sebas15-VirtualBox.txt`).
