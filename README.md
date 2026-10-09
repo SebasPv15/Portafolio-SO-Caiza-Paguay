@@ -16,13 +16,13 @@ En este repositorio se encuentran las actividades y evidencias correspondientes 
 En esta sección se encuentran los elementos solicitados para la primera semana:
 
 #### 1. Ayuda Memoria (Comandos Básicos)
-* **Comandos en Windows (PowerShell):**
+- **Comandos en Windows (PowerShell):**
   - `Get-CimInstance`: Permite consultar información detallada del sistema operativo, procesador y hardware mediante WMI/CIM.
   - `Get-PhysicalDisk`: Obtiene los dispositivos de almacenamiento conectados al equipo, mostrando su tamaño y tipo.
   - `Get-NetIPAddress`: Consulta las direcciones IP configuradas en las interfaces de red del equipo.
   - `Out-File`: Exporta los resultados obtenidos a un archivo de texto con codificación UTF-8.
 
-* **Comandos en Linux (Bash):**
+- **Comandos en Linux (Bash):**
   - `hostname` / `uname`: Permiten identificar el nombre del equipo y la versión del núcleo del sistema operativo.
   - `lscpu`: Muestra información detallada sobre la arquitectura del procesador, núcleos e hilos.
   - `free -h`: Consulta el uso y capacidad de la memoria RAM en un formato legible para humanos.
@@ -30,3 +30,7 @@ En esta sección se encuentran los elementos solicitados para la primera semana:
   - `ip addr show`: Muestra la configuración de las interfaces de red e IPs activas.
 
 ---
+
+#### 2. Resultados / Capturas de Salida
+* **`inventario_hardware.txt`**: Archivo de texto que contiene el reporte detallado generado por el script ejecutado en el entorno de Windows.
+* **`inventario_sebas15-VirtualBox.txt`**: Archivo de texto que contiene el reporte detallado generado por el script ejecutado en la máquina virtual Linux.
