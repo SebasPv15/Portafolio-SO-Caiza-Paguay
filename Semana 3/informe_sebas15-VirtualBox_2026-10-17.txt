@@ -1,0 +1,37 @@
+=== 1 · SO, versión y núcleo ===
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+7.0.0-38-generic
+x86_64
+
+=== 2 · Último arranque y uptime ===
+2026-10-16 21:34:05
+up 2 hours, 36 minutes
+
+=== 3 · Desglose del arranque ===
+Startup finished in 2.057s (kernel) + 6.670s (initrd) + 36.617s (userspace) = 45.345s 
+graphical.target reached after 17.597s in userspace.
+
+=== 4 · Cinco unidades más lentas ===
+1min 15.358s apt-daily-upgrade.service
+     35.590s dpkg-db-backup.service
+     29.790s apt-daily.service
+     10.593s plymouth-quit-wait.service
+      7.197s dev-rfkill.device
+
+=== 5 · Módulos / controladores ===
+Total de módulos cargados:
+61
+Los 5 módulos más grandes:
+hid                   282624  2 usbhid,hid_generic
+psmouse               225280  0
+snd_pcm               208896  2 snd_intel8x0,snd_ac97_codec
+snd_ac97_codec        200704  1 snd_intel8x0
+e1000                 188416  0
+
+=== 6 · Cierre ===
+Target por defecto:
+graphical.target
+Unidades fallidas:
+  UNIT LOAD ACTIVE SUB DESCRIPTION
+
+0 loaded units listed.
