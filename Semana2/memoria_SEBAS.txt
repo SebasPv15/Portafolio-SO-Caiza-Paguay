@@ -1,0 +1,118 @@
+
+=================================================================
+1. INFORMACION GENERAL
+=================================================================
+Nombre del equipo: SEBAS
+Sistema operativo: Microsoft Windows 11 Pro
+Version del sistema: 10.0.26200
+Fecha y hora: 2026-10-16 23:10:06
+Arquitectura del sistema: 64 bits
+Arquitectura del procesador: 9
+Orden de bytes: Little-endian
+
+=================================================================
+2. INFORMACION DEL PROCESADOR
+=================================================================
+Procesador: 12th Gen Intel(R) Core(TM) i7-12700H
+Nucleos: 14
+Procesadores logicos: 20
+Frecuencia maxima: 2300 MHz
+
+=================================================================
+3. CACHES DEL PROCESADOR
+=================================================================
+
+Nivel: 3
+Proposito: L1 Cache
+Tamano: 288 KB
+Tamano de linea:  bytes
+Vias reportadas: 9
+
+Nivel: 3
+Proposito: L1 Cache
+Tamano: 192 KB
+Tamano de linea:  bytes
+Vias reportadas: 7
+
+Nivel: 4
+Proposito: L2 Cache
+Tamano: 7680 KB
+Tamano de linea:  bytes
+Vias reportadas: 1
+
+Nivel: 5
+Proposito: L3 Cache
+Tamano: 24576 KB
+Tamano de linea:  bytes
+Vias reportadas: 9
+
+Nivel: 3
+Proposito: L1 Cache
+Tamano: 256 KB
+Tamano de linea:  bytes
+Vias reportadas: 7
+
+Nivel: 3
+Proposito: L1 Cache
+Tamano: 512 KB
+Tamano de linea:  bytes
+Vias reportadas: 7
+
+Nivel: 4
+Proposito: L2 Cache
+Tamano: 4096 KB
+Tamano de linea:  bytes
+Vias reportadas: 8
+
+Nivel: 5
+Proposito: L3 Cache
+Tamano: 24576 KB
+Tamano de linea:  bytes
+Vias reportadas: 9
+
+=================================================================
+4. CALCULO DE CONJUNTOS DE L1d
+=================================================================
+Formula: S = C / (L * A)
+C = capacidad de la cache en bytes
+L = tamano de linea en bytes
+A = numero de vias
+Resultado: requiere identificar L1d, su capacidad,
+tamano de linea y asociatividad con datos compatibles.
+Los campos de Win32_CacheMemory por si solos pueden no bastar.
+
+=================================================================
+5. MEMORIA RAM
+=================================================================
+RAM total: 15.69 GB
+RAM libre: 1.95 GB
+
+=================================================================
+6. MEMORIA VIRTUAL Y ARCHIVO DE PAGINACION
+=================================================================
+Archivo: C:\pagefile.sys
+Tamano asignado: 2053 MB
+Uso actual: 319 MB
+
+Memoria virtual total: 17.7 GB
+Memoria virtual libre: 2.11 GB
+
+=================================================================
+7. DISCOS FISICOS
+=================================================================
+
+Nombre: \\.\PHYSICALDRIVE0
+Modelo: NVMe MTFDKBA512QFM-1BD1AABGB
+Interfaz: SCSI
+Tamano: 476.94 GB
+Tipo: SSD
+
+=================================================================
+8. TIEMPOS DE EJECUCION
+=================================================================
+Ejecucion de matriz.exe : No medido. No existe matriz.exe en la carpeta actual.
+
+Ejecucion de matriz.exe c : No medido. No existe matriz.exe en la carpeta actual.
+
+=================================================================
+FIN DEL REPORTE
