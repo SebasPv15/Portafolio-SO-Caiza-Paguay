@@ -1,0 +1,29 @@
+﻿============================================================
+ AUDITORÃA DE SEGURIDAD - WINDOWS (SEBAS)
+ Fecha: 2026-11-20 19:50:58 | Umbral intentos: 5
+============================================================
+
+--- [1. Llavero maestro] ---
+  - Miembro: SEBAS\Administrador | SID: S-1-5-21-2034326255-816375835-3377132011-500
+  - Miembro: SEBAS\YSER | SID: S-1-5-21-2034326255-816375835-3377132011-1001
+Estado SecciÃ³n 1: OK
+
+--- [2. Puertas abiertas] ---
+NingÃºn puerto crÃ­tico (21, 23, 3306, 3389, 5900) expuesto a la red.
+Estado SecciÃ³n 2: OK
+
+--- [3. Portero activo] ---
+  - Perfil Domain: Enabled = True
+  - Perfil Private: Enabled = True
+  - Perfil Public: Enabled = True
+Estado SecciÃ³n 3: OK
+
+--- [4. Intentos fallidos] ---
+Aviso: Sin permisos para leer Security Log directo. Use el parÃ¡metro -Muestra.
+No se encontraron eventos 4625 con IP origen.
+Estado SecciÃ³n 4: OK
+
+============================================================
+ VEREDICTO FINAL: OK (Equipo sin alertas)
+ Reporte guardado en: semana05\auditoria_windows_SEBAS.txt
+============================================================
