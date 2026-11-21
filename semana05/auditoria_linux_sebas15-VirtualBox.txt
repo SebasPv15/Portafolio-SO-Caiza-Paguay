@@ -1,0 +1,27 @@
+============================================================
+ AUDITORÍA DE SEGURIDAD - LINUX (sebas15-VirtualBox)
+ Fecha: 2026-11-20 19:25:03 | Umbral intentos: 5
+ Modo muestra activado: ruta/a/tu_muestra_linux.log
+============================================================
+
+--- [1. Llavero maestro] ---
+Usuarios con UID 0: root
+Miembros wheel: Grupo wheel no encontrado
+Estado Sección 1: OK
+
+--- [2. Puertas abiertas] ---
+Ningún puerto crítico (21, 23, 3306, 3389, 5900) expuesto a la red.
+Estado Sección 2: OK
+
+--- [3. Portero activo] ---
+Estado del servicio firewalld: inactive
+Estado Sección 3: ALERTA
+
+--- [4. Intentos fallidos] ---
+No se encontraron registros de 'Failed password' por SSH.
+Estado Sección 4: OK
+
+============================================================
+ VEREDICTO FINAL: ALERTA (1 secciones con hallazgos)
+ Reporte guardado en: semana05/auditoria_linux_sebas15-VirtualBox.txt
+============================================================
